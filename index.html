@@ -1,6 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title>Rizki</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
@@ -8,179 +16,103 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-
-    <title>My Website</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
-  <body
-    style="
-      margin: 0;
-      padding: 0;
-      height: 100vh;
-      background-color: #e3e7eb;
-      font-size: 12px;
-    "
-  >
-    <div
-      class="card"
-      style="
-        background-color: white;
-        width: 85%;
-        height: 85%;
-        margin: 3.5% auto;
-        border-radius: 5px;
-        box-shadow: 0px 0px 20px rgb(118, 115, 115);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      "
-    >
-      <div class="container" style="width: 40%; height: 90%; margin-top: 50px">
-        <div class="header">
-          <h3>Hi Welcome To My Hut</h3>
+
+  <body>
+    <!-- navbar -->
+    <nav>
+      <div class="logo">
+        <a href=""><img src="assets/img/logo.png" alt="" /></a>
+      </div>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li class="myProject"><a href="blog-page.html">My Project</a></li>
+      </ul>
+
+      <div class="contact">
+        <button>
+          <a href="contact.html">Contact Me</a>
+        </button>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- container -->
+    <div class="card">
+      <div class="container-card">
+        <!-- content -->
+
+        <div class="content">
+          <!-- article -->
+          <div class="article">
+            <div class="container-content">
+              <h1>Hi Welcome to my hut</h1>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Egestas quis ipsum suspendisse ultrices gravida dictum fusce ut
+                placerat. Elit eget gravida cum sociis natoque penatibus et
+                magnis. Nisl pretium fusce id velit ut tortor pretium viverra.
+                Integer eget aliquet nibh praesent. Eget nunc lobortis mattis
+                aliquam faucibus purus in massa tempor. Integer enim neque
+                volutpat ac tincidunt vitae. Risus feugiat in ante metus dictum
+                at tempor. Viverra aliquet eget sit amet tellus cras. Dictum at
+                tempor commodo ullamcorper a.
+              </p>
+            </div>
+
+            <div class="anchor">
+              <div class="container-contact">
+                <a href="#">contact</a>
+              </div>
+              <div class="container-cv">
+                <a href="">Download CV <i class="fa-solid fa-download"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- article end -->
+
+          <!-- sosial media -->
+          <div class="sosmed">
+            <div class="ig">
+              <a href="https://www.instagram.com/ikkydoang_/" id="ig">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+            <div class="fb">
+              <a href="https://www.facebook.com/nooby.nooby.3557" id="fb">
+                <i class="fa-brands fa-facebook"></i>
+              </a>
+            </div>
+            <div class="twitter">
+              <a href="https://twitter.com/akukikicuy" id="twitter">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </div>
+            <div class="linked-in">
+              <a href="#" id="linkedIn">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+          <!-- sosial media end -->
         </div>
 
-        <p style="margin-top: 15px">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras in
-          venenatis nisi. Pellentesque nec laoreet felis. Proin consectetur odio
-          sit amet erat scelerisque sagittis. Nullam a sollicitudin mauris.
-          Vivamus quis fringilla orci. Cras ac pharetra justo, et egestas
-          libero. Nunc blandit, ligula dapibus tempor tempus, metus massa
-          fringilla arcu, nec mollis augue sem sed eros. Sed vulputate est eu
-          tempus blandit. Ut elementum massa urna, et commodo est mattis vitae.
-        </p>
+        <!-- content end -->
 
-        <div class="contact" style="margin-top: 15px">
-          <button
-            style="
-              padding: 5px 20px;
-              border: none;
-              border-radius: 20px;
-              background-color: black;
-              color: rgb(240, 238, 238);
-            "
-          >
-            contact
-          </button>
+        <!-- profil -->
+        <div class="profil">
+          <img src="assets/img/Foto_Rizki.jpg" alt="" />
+          <div class="profil-bio">
+            <h2>Rizki Edy K.</h2>
+            <p>Fullstack Developer</p>
+          </div>
         </div>
-
-        <div class="cv" style="margin-top: 15px">
-          <a
-            href=""
-            style="
-              text-decoration: none;
-              color: black;
-              height: 20px;
-              display: flex;
-              align-items: center;
-            "
-            >download CV
-            <i
-              class="fa-sharp fa-solid fa-download"
-              style="margin-left: 5px"
-            ></i
-          ></a>
-        </div>
-
-        <div
-          class="sosmed"
-          style="margin-top: 25px; display: flex; justify-content: center"
-        >
-          <a
-            href="#"
-            class="fa-brands fa-linkedin"
-            style="
-              text-decoration: none;
-              padding: 10px;
-              font-size: 12px;
-              /* width: 30px; */
-              text-align: center;
-              margin: 20px 10px 0px;
-              border-radius: 50%;
-              background-color: black;
-              color: white;
-            "
-          ></a>
-          <a
-            href="#"
-            class="fa-brands fa-instagram"
-            style="
-              text-decoration: none;
-              padding: 10px;
-              font-size: 12px;
-              /* width: 30px; */
-              text-align: center;
-              margin: 20px 10px 0px;
-              border-radius: 50%;
-              background-color: black;
-              color: white;
-            "
-          ></a>
-          <a
-            href="#"
-            class="fa-brands fa-facebook"
-            style="
-              text-decoration: none;
-              padding: 10px;
-              font-size: 12px;
-              /* width: 30px; */
-              text-align: center;
-              margin: 20px 10px 0px;
-              border-radius: 50%;
-              background-color: black;
-              color: white;
-            "
-          ></a>
-          <a
-            href="#"
-            class="fa-brands fa-twitter"
-            style="
-              text-decoration: none;
-              padding: 10px;
-              font-size: 12px;
-              /* width: 30px; */
-              text-align: center;
-              margin: 20px 10px 0px;
-              border-radius: 50%;
-              background-color: black;
-              color: white;
-            "
-          ></a>
-        </div>
-
-        <div
-          class="content-card"
-          style="
-            width: 50%;
-            height: 250px;
-            margin: 20px auto;
-            border-radius: 5px;
-            padding-bottom: 10px;
-            box-shadow: 0px 0px 5px;
-          "
-        >
-          <img
-            src="img/Foto_Rizki.jpg"
-            alt=""
-            style="
-              width: 100%;
-              height: 80%;
-              border-top-left-radius: 5px;
-              border-top-right-radius: 5px;
-            "
-          />
-
-          <table
-            style="display: flex; justify-content: center; margin-top: 10px"
-          >
-            <tr>
-              <th>Rizki Kurnia</th>
-            </tr>
-            <tr>
-              <td>Fullstack Developer</td>
-            </tr>
-          </table>
-        </div>
+        <!-- profil end -->
       </div>
     </div>
+    <!-- container -->
   </body>
 </html>
